@@ -1,0 +1,18 @@
+{% load static %}
+<html>
+    <head>
+        <title>Django Vite Vue</title>
+        {% for file in vue_css_paths %}
+            <link type="text/css" href="{% static file %}" />
+        {% endfor %}
+    </head>
+    <body>
+        <div id="app"></div>
+        {% for file in vue_js_paths %}
+            <script src="{% static file %}"></script>
+        {% endfor %}
+        <div>
+            <h3>Hello</h3>
+        </div>
+    </body>
+</html>
