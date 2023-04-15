@@ -1,1 +1,0 @@
-import{b as e,o,e as t,f as c}from"./index-12351e36.js";const n={},s=c("h2",null,"Home in Folder 2",-1),r=[s];function _(a,l){return o(),t("div",null,r)}const f=e(n,[["render",_]]);export{f as default};

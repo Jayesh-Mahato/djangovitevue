@@ -2,11 +2,9 @@
 import { defineAsyncComponent } from 'vue';
 import TheWelcome from '../components/TheWelcome.vue';
 import store from './../store';
-const varfolder = 'folder_1';
 const HomePath = defineAsyncComponent(() =>
-  import(`./${varfolder}/Home.vue`)
+  import(`./${store.data}/Home.vue`)
 )
-// console.log(store.data)
 </script>
 
 <template>

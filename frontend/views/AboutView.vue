@@ -1,8 +1,8 @@
 <script setup>
 import { defineAsyncComponent } from 'vue';
-const varfolder = 'folder_2';
+import abc from './../abc';
 const HomePath = defineAsyncComponent(() =>
-  import(`./${varfolder}/Home.vue`)
+  import(`./${abc.data}/Home.vue`)
 )
 </script>
 <template>

@@ -1,5 +1,7 @@
 import {reactive} from 'vue';
 
-export default store = reactive({
+const store = reactive({
     data: 'folder_1'
 });
+
+export default store;
