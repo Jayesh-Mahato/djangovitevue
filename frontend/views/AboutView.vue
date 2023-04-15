@@ -1,7 +1,15 @@
+<script setup>
+import { defineAsyncComponent } from 'vue';
+const varfolder = 'folder_2';
+const HomePath = defineAsyncComponent(() =>
+  import(`./${varfolder}/Home.vue`)
+)
+</script>
 <template>
-  <div class="about">
+  <HomePath />
+  <!-- <div class="about">
     <h1>This is an about page</h1>
-  </div>
+  </div> -->
 </template>
 
 <style>
