@@ -1,6 +1,8 @@
 # djangovitevue
 
-Parallel Terminals
+Django and Vite Vue 3 project using both Django Router and Vue Router.
+
+## Parallel Terminals
 
 For Vue
 1. npm install
